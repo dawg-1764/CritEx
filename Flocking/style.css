@@ -1,19 +1,10 @@
 :root {
-    --paper: #E6ECEF;
-    --ink: #14202E;
-    --soft: #4A5A6C;
-    --line: #B5C2CC;
-    --accent: #2F4BD8
-}
-
-@media (prefers-color-scheme:dark) {
-    :root {
-        --paper: #12182B;
-        --ink: #E4E9F2;
-        --soft: #A3AFC4;
-        --line: #2D3858;
-        --accent: #93A8FF
-    }
+    --paper: #12182B;
+    --ink: #E4E9F2;
+    --soft: #A3AFC4;
+    --line: #2D3858;
+    --accent: #93A8FF
+    color-scheme:dark
 }
 
 * {
